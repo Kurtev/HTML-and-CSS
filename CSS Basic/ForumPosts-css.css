@@ -1,0 +1,41 @@
+﻿body{
+    font-family:serif;
+    background-color:#a9a9a9
+}
+header{
+    text-align:center;
+    color:white;
+    font-size:25px;
+}
+ul{
+    font-weight:bold;
+    list-style-type:none
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+li:nth-child(2):hover{
+
+    display:inline;
+    background-color:#d3d3d3;
+  
+
+}
+li:nth-child(4):hover{
+   
+    text-decoration:underline;
+
+}
+section> header > h1{
+   text-align:left;
+}
+article > section > footer{
+    margin-top:10px;
+    font-size:12px;
+}
+body > footer{
+    text-align:center;
+    vertical-align:bottom;
+}
+

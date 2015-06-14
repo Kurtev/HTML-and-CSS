@@ -1,0 +1,36 @@
+﻿body{
+    font-family:Arial,serif,sans-serif
+}
+table {
+    border-collapse:collapse;
+    font-size:12px;
+    border-bottom:1px solid #808080
+}
+th{
+    text-align:left;
+    color:#FFFFFF;
+    font-weight:normal;
+    background-color:#5dbe08;
+    border:1px solid #808080;
+    padding:2px 8px 6px 6px;
+    border-top:hidden
+}
+td {
+    border-right: 1px solid #808080;
+    padding:4px;
+    padding-right:40px
+}
+td:last-child{
+    border-right:hidden
+}
+tr:nth-child(2n+2){
+    background-color:#d4d1d1
+}
+img{
+    width:30px;
+    height:18px;
+    vertical-align:top;
+    padding-right:6px
+}
+
+
